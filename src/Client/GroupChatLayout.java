@@ -119,7 +119,7 @@ public class GroupChatLayout extends JFrame{
             public synchronized void actionPerformed(ActionEvent e) {
                 tmpColor = brush.getColor();
                 groupChatBack.sendMessage("!SetClear");
-                brush.setColor(tmpColor);
+                groupChatBack.sendMessage("!ColorChanged" + Color.BLACK.getRGB());
             }
         });
 
