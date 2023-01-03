@@ -36,7 +36,7 @@ public class Crawling {
 
         // HTML로 부터 데이터 가져오기
         Element element_degree = doc.selectFirst("#content .today_weather .weather_area .weather_now .summary_img");
-        String degree = element_degree.toString().split("</span>")[1].split("<span class=\"degree\">")[0];
+        String degree = element_degree.selectFirst(".current").ownText();
         sb.append("현재 온도 : " + degree + "°").append("\n");
 
         // ------------------------------------------------------------------------------------------------------- //
