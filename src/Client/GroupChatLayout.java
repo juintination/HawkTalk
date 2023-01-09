@@ -90,6 +90,7 @@ public class GroupChatLayout extends JFrame{
                 brush.setX(e.getX());
                 brush.setY(e.getY());
                 groupChatBack.sendMessage("!Drawing" + brush.x + ":" + brush.y);
+                brush.revalidate();
                 brush.repaint();
                 brush.printAll(imgBuff.getGraphics());
             }
