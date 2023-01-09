@@ -37,7 +37,7 @@
 ---
 
 ## 실행시 주의사항
--   jdk 17 버전으로 작성되었으며 맥 os 에서 그림판 기능이 작동하지 않는 문제가 있으며 추후 수정 예정
+-   jdk 17 버전으로 작성되었으며 mysql connector 라이브러리와 jsoup 라이브러리가 필요함
 -   다른 ip의 서버에 접속하기 위해 `LogInLayout` 클래스에 있는 `ipAddress` 를 `localhost` 에서 서버의 IP주소로 수정하여 사용해야 하며 같은 wifi를 사용하고 있어야 함
 -   MySQL 관련 설정이 필요함 (`usersDB` 스키마에 `usertable` 테이블이 있어야 하며 root 유저의 비밀번호가 "admin"이 아닌 경우 DB 패키지의 `JDBCconnector` 클래스에서 변경해야 함)
 -   usertable의 구조는 다음과 같음
