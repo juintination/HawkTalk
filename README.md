@@ -30,9 +30,9 @@
 
 ---
 
-## 프로그램 구성도
+## 클래스 다이어그램
 
-![Untitled](https://user-images.githubusercontent.com/112773313/209364871-7b074d59-5833-4ecc-9b21-b9579e868654.png)
+![HalkTalkClassDiagram](https://github.com/juintination/HawkTalk/assets/89019601/9ec4f686-0b7b-4b34-85f2-883c54486479)
 
 ---
 
